@@ -2,7 +2,10 @@ import java.util.Scanner;
 public class MahasiswaDemo04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int jmlMhs = 5;
+        
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int jmlMhs = sc.nextInt();
+        sc.nextLine();
 
         MahasiswaBerprestasi04 list = new MahasiswaBerprestasi04(jmlMhs);
 
